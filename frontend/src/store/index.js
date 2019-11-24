@@ -50,12 +50,10 @@ export default new Vuex.Store({
           options.commit('EDIT_PRODUCT', response.data);
         })
     },
-    deletePdroduct(options, obj) {
-      let bodyFormData = new FormData()
-      bodyFormData.append('obj', JSON.stringify(obj))
-      axios.post(endpoint + '/product/' + obj.pk + '/delete/', bodyFormData)
+    deleteProduct(options, obj) {
+      axios.post(endpoint + '/product/' + obj.pk + '/delete/')
         .then(response => {
-          options.commit('DELETE_PRODUCT', response.data);
+          options.commit('DELETE_PRODUCT', obj);
         })
     }
   }

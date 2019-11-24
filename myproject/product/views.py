@@ -41,3 +41,14 @@ def products_edit(request, pk):
     # return data serialized
     data = obj.to_dict_json()
     return JsonResponse(data)
+
+
+@csrf_exempt
+def products_delete(request, pk):
+    # get object
+    obj = Product.objects.get(pk=pk)
+    # delete object
+    obj.delete()
+    # return data serialized
+    data = {'deleted': True}
+    return JsonResponse(data)
