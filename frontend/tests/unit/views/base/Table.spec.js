@@ -1,13 +1,21 @@
 import Vue from 'vue'
 import { mount, shallowMount } from '@vue/test-utils';
-import CoreuiVue from '@coreui/vue'
+import BootstrapVue from 'bootstrap-vue'
 import Table from '@/views/base/Table'
 
-Vue.use(CoreuiVue)
+Vue.use(BootstrapVue)
 
 describe('Table.vue', () => {
   it('has a name', () => {
-    expect(Table.name).toBe('Table')
+    expect(Table.name).toMatch('c-table')
+  })
+  it('has a created hook', () => {
+    expect(typeof Table.data).toMatch('function')
+  })
+  it('sets the correct default data', () => {
+    expect(typeof Table.data).toMatch('function')
+    const defaultData = Table.data()
+    expect(defaultData.currentPage).toBe(1)
   })
   it('is Vue instance', () => {
     const wrapper = mount(Table)
@@ -16,6 +24,10 @@ describe('Table.vue', () => {
   it('is Table', () => {
     const wrapper = mount(Table)
     expect(wrapper.is(Table)).toBe(true)
+  })
+  it('should render correct content', () => {
+    const wrapper = mount(Table)
+    expect(wrapper.find('div.card-header > div').text()).toMatch('Table')
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Table)

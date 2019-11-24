@@ -1,3488 +1,3416 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`StandardButtons.vue renders correctly 1`] = `
-<div>
-  <ccard-stub>
-    <ccardheader-stub>
+<div
+  class="animated fadeIn"
+>
+  <b-card-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitle=""
+    subtitletag="h6"
+    subtitletextvariant="muted"
+    tag="div"
+    title=""
+    titletag="h4"
+  >
+    <b-card-header-stub
+      headertag="div"
+    >
       <strong>
         Standard buttons
       </strong>
-       
-      <div
-        class="card-header-actions"
-      >
-        <a
-          class="card-header-action"
-          href="https://coreui.io/vue/docs/components/button-components"
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          <small
-            class="text-muted"
-          >
-            docs
-          </small>
-        </a>
-      </div>
-    </ccardheader-stub>
+    </b-card-header-stub>
      
-    <ccardbody-stub>
-      <crow-stub
+    <b-card-body-stub
+      bodytag="div"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      title=""
+      titletag="h4"
+    >
+      <b-row-stub
         class="align-items-center"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Normal
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="link"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="link"
           >
             Link
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Active State
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="primary"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="secondary"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="success"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="warning"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="danger"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="info"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="light"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="dark"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="link"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="link"
           >
             Link
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Disabled
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="link"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="link"
           >
             Link
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
-    </ccardbody-stub>
-  </ccard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <ccard-stub>
-    <ccardheader-stub>
+  <b-card-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitle=""
+    subtitletag="h6"
+    subtitletextvariant="muted"
+    tag="div"
+    title=""
+    titletag="h4"
+  >
+    <b-card-header-stub
+      headertag="div"
+    >
       <strong>
         Outline Buttons
       </strong>
-    </ccardheader-stub>
+    </b-card-header-stub>
      
-    <ccardbody-stub>
+    <b-card-body-stub
+      bodytag="div"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      title=""
+      titletag="h4"
+    >
       <p>
         
         Use 
         <code>
-          variant="outline"
+          variant="outline-*"
         </code>
          prop
       
       </p>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Normal
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         />
-      </crow-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Active State
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="primary"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="secondary"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="success"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="warning"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="danger"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="info"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="light"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="dark"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         />
-      </crow-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Disabled
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         />
-      </crow-stub>
-    </ccardbody-stub>
-  </ccard-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <ccard-stub>
-    <ccardheader-stub>
+  <b-card-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitle=""
+    subtitletag="h6"
+    subtitletextvariant="muted"
+    tag="div"
+    title=""
+    titletag="h4"
+  >
+    <b-card-header-stub
+      headertag="div"
+    >
       <strong>
         Ghost Buttons
       </strong>
-    </ccardheader-stub>
+    </b-card-header-stub>
      
-    <ccardbody-stub>
+    <b-card-body-stub
+      bodytag="div"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      title=""
+      titletag="h4"
+    >
       <p>
         
         Use
         
         <code>
-          variant="ghost"
+          .btn-ghost-*
         </code>
-         prop for ghost buttons.
+         class for ghost buttons.
       
       </p>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Normal
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         />
-      </crow-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Active State
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="primary"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="secondary"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="success"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="warning"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="danger"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="info"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="light"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="dark"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         />
-      </crow-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Disabled
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         />
-      </crow-stub>
-    </ccardbody-stub>
-  </ccard-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <ccard-stub>
-    <ccardheader-stub>
+  <b-card-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitle=""
+    subtitletag="h6"
+    subtitletextvariant="muted"
+    tag="div"
+    title=""
+    titletag="h4"
+  >
+    <b-card-header-stub
+      headertag="div"
+    >
       <strong>
         Square Buttons
       </strong>
-    </ccardheader-stub>
+    </b-card-header-stub>
      
-    <ccardbody-stub>
+    <b-card-body-stub
+      bodytag="div"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      title=""
+      titletag="h4"
+    >
       <p>
         
         Use
         
         <code>
-          square
+          .btn-square
         </code>
-         prop for square buttons.
+         class for square buttons.
       
       </p>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Normal
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="link"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="link"
           >
             Link
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Active State
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="primary"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="secondary"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="success"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="warning"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="danger"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="info"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="light"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="dark"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="link"
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="link"
           >
             Link
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Disabled
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
+            class="btn-square"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
+            class="btn-square"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
+            class="btn-square"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
+            class="btn-square"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
+            class="btn-square"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
+            class="btn-square"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
+            class="btn-square"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
+            class="btn-square"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="link"
+            class="btn-square"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="link"
           >
             Link
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
-    </ccardbody-stub>
-  </ccard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <ccard-stub>
-    <ccardheader-stub>
+  <b-card-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitle=""
+    subtitletag="h6"
+    subtitletextvariant="muted"
+    tag="div"
+    title=""
+    titletag="h4"
+  >
+    <b-card-header-stub
+      headertag="div"
+    >
       <strong>
         Pill Buttons
       </strong>
-    </ccardheader-stub>
+    </b-card-header-stub>
      
-    <ccardbody-stub>
+    <b-card-body-stub
+      bodytag="div"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      title=""
+      titletag="h4"
+    >
       <p>
         
         Use
         
         <code>
-          pill
+          .btn-pill
         </code>
-         prop for pill buttons.
+         class for pill buttons.
       
       </p>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Normal
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="link"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="link"
           >
             Link
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Active State
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="primary"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="secondary"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="success"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="warning"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="danger"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="info"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="light"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="dark"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             aria-pressed="true"
             block="true"
-            color="link"
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             pressed="true"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="link"
           >
             Link
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="12"
+          cols="12"
           tag="div"
           xl="true"
         >
           
           Disabled
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="primary"
+            class="btn-pill"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Primary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="secondary"
+            class="btn-pill"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Secondary
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="success"
+            class="btn-pill"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="success"
           >
             Success
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="warning"
+            class="btn-pill"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Warning
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="danger"
+            class="btn-pill"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Danger
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="info"
+            class="btn-pill"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="info"
           >
             Info
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="light"
+            class="btn-pill"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="light"
           >
             Light
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="dark"
+            class="btn-pill"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="dark"
           >
             Dark
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="6"
+          cols="6"
           md="2"
           sm="4"
           tag="div"
           xl="true"
         >
-          <cbutton-stub
-            activeclass="active"
+          <b-button-stub
             block="true"
-            color="link"
+            class="btn-pill"
             disabled="true"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="link"
           >
             Link
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
-    </ccardbody-stub>
-  </ccard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <ccard-stub>
-    <ccardheader-stub>
+  <b-card-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitle=""
+    subtitletag="h6"
+    subtitletextvariant="muted"
+    tag="div"
+    title=""
+    titletag="h4"
+  >
+    <b-card-header-stub
+      headertag="div"
+    >
       <strong>
         Sizes
       </strong>
-    </ccardheader-stub>
+    </b-card-header-stub>
      
-    <ccardbody-stub>
+    <b-card-body-stub
+      bodytag="div"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      title=""
+      titletag="h4"
+    >
       <p>
         Fancy larger or smaller buttons? Add 
         <code>
@@ -3495,864 +3423,857 @@ exports[`StandardButtons.vue renders correctly 1`] = `
          for additional sizes.
       </p>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="2"
+          cols="2"
           tag="div"
           xl="true"
         >
           
           Small
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="primary"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Standard Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="secondary"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-secondary"
           >
             Outline Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="success"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-success"
           >
             Ghost Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="warning"
+          <b-button-stub
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Square Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="danger"
+          <b-button-stub
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Pill Button
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="2"
+          cols="2"
           tag="div"
           xl="true"
         >
           
           Normal
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="primary"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Standard Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="secondary"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-secondary"
           >
             Outline Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="success"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-success"
           >
             Ghost Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="warning"
+          <b-button-stub
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Square Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="danger"
+          <b-button-stub
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Pill Button
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <crow-stub
+      <b-row-stub
         class="align-items-center mt-3"
-        gutters="true"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
-          col="2"
+          cols="2"
           tag="div"
           xl="true"
         >
           
           Large
         
-        </ccol-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="primary"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="lg"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
             Standard Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="secondary"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="lg"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="outline-secondary"
           >
             Outline Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="success"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="lg"
+            tag="button"
             target="_self"
             type="button"
-            variant="ghost"
+            variant="ghost-success"
           >
             Ghost Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="warning"
+          <b-button-stub
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="lg"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
             Square Button
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
-          col="2"
+          cols="2"
           tag="div"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="danger"
+          <b-button-stub
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
             size="lg"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
             Pill Button
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
-    </ccardbody-stub>
-  </ccard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <ccard-stub>
-    <ccardheader-stub>
+  <b-card-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitle=""
+    subtitletag="h6"
+    subtitletextvariant="muted"
+    tag="div"
+    title=""
+    titletag="h4"
+  >
+    <b-card-header-stub
+      headertag="div"
+    >
       <strong>
         With Icons
       </strong>
-    </ccardheader-stub>
+    </b-card-header-stub>
      
-    <ccardbody-stub>
-      <crow-stub
-        class="align-items-center"
-        gutters="true"
+    <b-card-body-stub
+      bodytag="div"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      title=""
+      titletag="h4"
+    >
+      <b-row-stub
+        class="align-items-center mt-3"
+        tag="div"
       >
-        <ccol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="primary"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="primary"
           >
-            <cicon-stub
-              name="cil-lightbulb"
+            <i
+              class="fa fa-lightbulb-o"
             />
              Standard Button
           
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="secondary"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
+            outline=""
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
-            variant="outline"
+            variant="secondary"
           >
-            <cicon-stub
-              name="cil-lightbulb"
+            <i
+              class="fa fa-lightbulb-o"
             />
              Outline Button
           
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="success"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="ghost-success"
           >
-            <cicon-stub
-              name="cil-lightbulb"
+            <i
+              class="fa fa-lightbulb-o"
             />
              Ghost Button
           
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="warning"
+          <b-button-stub
+            class="btn-square"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            square=""
+            tag="button"
             target="_self"
             type="button"
+            variant="warning"
           >
-            <cicon-stub
-              name="cil-lightbulb"
+            <i
+              class="fa fa-lightbulb-o"
             />
              Square Button
           
-          </cbutton-stub>
-        </ccol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <ccol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="danger"
+          <b-button-stub
+            class="btn-pill"
             event="click"
-            exactactiveclass="active"
             routertag="a"
-            shape="pill"
+            tag="button"
             target="_self"
             type="button"
+            variant="danger"
           >
-            <cicon-stub
-              name="cil-lightbulb"
+            <i
+              class="fa fa-lightbulb-o"
             />
              Pill Button
           
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
-    </ccardbody-stub>
-  </ccard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <ccard-stub>
-    <ccardheader-stub>
+  <b-card-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    subtitle=""
+    subtitletag="h6"
+    subtitletextvariant="muted"
+    tag="div"
+    title=""
+    titletag="h4"
+  >
+    <div
+      slot="header"
+    >
       <strong>
         Toggle pressed state
       </strong>
-    </ccardheader-stub>
+    </div>
      
-    <ccardbody-stub>
-      <crow-stub
-        gutters="true"
+    <b-row-stub
+      tag="div"
+    >
+      <b-col-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
       >
-        <ccol-stub
-          class="text-center mt-3"
-          sm="true"
-          tag="div"
-          xs="12"
+        <b-button-stub
+          event="click"
+          routertag="a"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-primary"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="primary"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Primary Off
-          </cbutton-stub>
-        </ccol-stub>
-         
-        <ccol-stub
-          class="text-center mt-3"
-          sm="true"
-          tag="div"
-          xs="12"
+          Primary Off
+        </b-button-stub>
+      </b-col-stub>
+       
+      <b-col-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <b-button-stub
+          event="click"
+          routertag="a"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-secondary"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="secondary"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Secondary Off
-          </cbutton-stub>
-        </ccol-stub>
-         
-        <ccol-stub
-          class="text-center mt-3"
-          sm="true"
-          tag="div"
-          xs="12"
+          Secondary Off
+        </b-button-stub>
+      </b-col-stub>
+       
+      <b-col-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <b-button-stub
+          event="click"
+          routertag="a"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-success"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="success"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Success Off
-          </cbutton-stub>
-        </ccol-stub>
-         
-        <ccol-stub
-          class="text-center mt-3"
-          sm="true"
-          tag="div"
-          xs="12"
+          Success Off
+        </b-button-stub>
+      </b-col-stub>
+       
+      <b-col-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <b-button-stub
+          event="click"
+          routertag="a"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-info"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="info"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Info Off
-          </cbutton-stub>
-        </ccol-stub>
-         
-        <ccol-stub
-          class="text-center mt-3"
-          sm="true"
-          tag="div"
-          xs="12"
+          Info Off
+        </b-button-stub>
+      </b-col-stub>
+       
+      <b-col-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <b-button-stub
+          event="click"
+          routertag="a"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-warning"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="warning"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Warning Off
-          </cbutton-stub>
-        </ccol-stub>
-         
-        <ccol-stub
-          class="text-center mt-3"
-          sm="true"
-          tag="div"
-          xs="12"
+          Warning Off
+        </b-button-stub>
+      </b-col-stub>
+       
+      <b-col-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <b-button-stub
+          event="click"
+          routertag="a"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-danger"
         >
-          <cbutton-stub
-            activeclass="active"
-            color="danger"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Danger Off
-          </cbutton-stub>
-        </ccol-stub>
-      </crow-stub>
-    </ccardbody-stub>
-  </ccard-stub>
+          Danger Off
+        </b-button-stub>
+      </b-col-stub>
+    </b-row-stub>
+  </b-card-stub>
    
-  <crow-stub
-    gutters="true"
+  <b-row-stub
+    tag="div"
   >
-    <ccol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <ccard-stub>
-        <ccardheader-stub>
+      <b-card-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitle=""
+        subtitletag="h6"
+        subtitletextvariant="muted"
+        tag="div"
+        title=""
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
           <strong>
-            Block Level CButtons 
+            Block Level b-buttons
           </strong>
+           
           <small>
             Add this 
             <code>
               block
             </code>
           </small>
-        </ccardheader-stub>
+        </div>
          
-        <ccardbody-stub>
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="secondary"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="primary"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="success"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="info"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="warning"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="danger"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="link"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-          >
-            Block level button
-          </cbutton-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="secondary"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="primary"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="success"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="info"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="warning"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="danger"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="link"
+        >
+          Block level button
+        </b-button-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <ccol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <ccard-stub>
-        <ccardheader-stub>
+      <b-card-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitle=""
+        subtitletag="h6"
+        subtitletextvariant="muted"
+        tag="div"
+        title=""
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
           <strong>
-            Block Level CButtons 
+            Block Level b-buttons
           </strong>
+           
           <small>
             Add this 
             <code>
               block
             </code>
           </small>
-        </ccardheader-stub>
+        </div>
          
-        <ccardbody-stub>
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="secondary"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="primary"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="success"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="info"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="warning"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="danger"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-            variant="outline"
-          >
-            Block level button
-          </cbutton-stub>
-           
-          <cbutton-stub
-            activeclass="active"
-            block="true"
-            color="info"
-            event="click"
-            exactactiveclass="active"
-            routertag="a"
-            size="lg"
-            target="_self"
-            type="button"
-            variant="ghost"
-          >
-            Block level button
-          </cbutton-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-  </crow-stub>
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-secondary"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-primary"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-success"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-info"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-warning"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="outline-danger"
+        >
+          Block level button
+        </b-button-stub>
+         
+        <b-button-stub
+          block="true"
+          event="click"
+          routertag="a"
+          size="lg"
+          tag="button"
+          target="_self"
+          type="button"
+          variant="ghost-info"
+        >
+          Block level button
+        </b-button-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
 </div>
 `;

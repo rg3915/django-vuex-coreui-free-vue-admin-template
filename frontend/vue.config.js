@@ -3,5 +3,5 @@ module.exports = {
   runtimeCompiler: true,
   publicPath: '/',
   outputDir: '../myproject/core/templates',
-  // assetsDir: '../static'
+  assetsDir: '../static'
 }

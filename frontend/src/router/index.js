@@ -66,6 +66,7 @@ function configRoutes() {
   return [
     {
       path: '/',
+      // redirect: '/dashboard',
       name: 'Home',
       component: DefaultContainer,
       children: [

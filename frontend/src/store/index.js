@@ -8,15 +8,15 @@ export default new Vuex.Store({
         products: [{
             id: 1,
             name: 'Refrigerante',
-            price: 4.25
+            price: 4.55
         }, {
             id: 2,
             name: 'Sorvete',
-            price: 2.5
+            price: 1.55
         }, {
             id: 3,
             name: 'Hamburguer',
-            price: 12.45
+            price: 20.42
         }],
     },
     mutations: {

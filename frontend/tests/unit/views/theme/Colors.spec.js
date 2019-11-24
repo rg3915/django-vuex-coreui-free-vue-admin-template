@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import { shallowMount, mount } from '@vue/test-utils'
-import CoreuiVue from '@coreui/vue'
+import BootstrapVue from 'bootstrap-vue'
 import Colors from '@/views/theme/Colors'
 
-Vue.use(CoreuiVue)
+Vue.use(BootstrapVue)
 
 describe('Colors.vue', () => {
   it('has a name', () => {
-    expect(Colors.name).toBe('Colors')
+    expect(Colors.name).toMatch('colors')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Colors)
@@ -16,6 +16,10 @@ describe('Colors.vue', () => {
   it('is Colors', () => {
     const wrapper = shallowMount(Colors)
     expect(wrapper.is(Colors)).toBe(true)
+  })
+  it('should render correct content', () => {
+    const wrapper = mount(Colors)
+    expect(wrapper.find('header.card-header > div').text()).toMatch('Theme colors')
   })
   test('renders correctly', () => {
     const wrapper = mount(Colors)

@@ -1,48 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`User.vue renders correctly 1`] = `
-<crow-stub
-  gutters="true"
+<b-row-stub
+  tag="div"
 >
-  <ccol-stub
-    col="12"
+  <b-col-stub
+    cols="12"
     lg="6"
     tag="div"
   >
-    <ccard-stub>
-      <ccardheader-stub>
+    <b-card-stub
+      bodytag="div"
+      footertag="div"
+      headertag="div"
+      no-header=""
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      tag="div"
+      title=""
+      titletag="h4"
+    >
+      <template>
         
         User id:  
       
-      </ccardheader-stub>
+      </template>
        
-      <ccardbody-stub>
-        <cdatatable-stub
-          fields="[object Object],[object Object]"
-          fixed="true"
-          items="[object Object]"
-          itemsperpage="10"
-          responsive="true"
-          small=""
-          sortervalue="[object Object]"
-          striped="true"
-        />
-      </ccardbody-stub>
+      <b-table-stub
+        apiurl=""
+        currentpage="1"
+        emptyfilteredtext="There are no records matching your request"
+        emptytext="There are no records to show"
+        fields="[object Object],[object Object]"
+        fixed="true"
+        items="[object Object]"
+        labelsortasc="Click to sort Ascending"
+        labelsortclear="Click to clear sorting"
+        labelsortdesc="Click to sort Descending"
+        perpage="0"
+        responsive="sm"
+        selectedvariant="primary"
+        selectmode="multi"
+        small="true"
+        sortby=""
+        sortdirection="asc"
+        striped="true"
+        value=""
+      />
        
-      <ccardfooter-stub>
-        <cbutton-stub
-          activeclass="active"
-          color="primary"
+      <template>
+        <b-button-stub
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
+          variant="secondary"
         >
           Back
-        </cbutton-stub>
-      </ccardfooter-stub>
-    </ccard-stub>
-  </ccol-stub>
-</crow-stub>
+        </b-button-stub>
+      </template>
+    </b-card-stub>
+  </b-col-stub>
+</b-row-stub>
 `;

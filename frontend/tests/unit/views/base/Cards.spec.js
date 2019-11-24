@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import { shallowMount, mount } from '@vue/test-utils'
-import CoreuiVue from '@coreui/vue'
+import BootstrapVue from 'bootstrap-vue'
 import Cards from '@/views/base/Cards'
 
-Vue.use(CoreuiVue)
+Vue.use(BootstrapVue)
 
 describe('Cards.vue', () => {
   it('has a name', () => {
-    expect(Cards.name).toBe('Cards')
+    expect(Cards.name).toMatch('cards')
   })
   it('has a created hook', () => {
     expect(typeof Cards.data).toMatch('function')
@@ -24,6 +24,10 @@ describe('Cards.vue', () => {
   it('is Cards', () => {
     const wrapper = shallowMount(Cards)
     expect(wrapper.is(Cards)).toBe(true)
+  })
+  it('should render correct content', () => {
+    const wrapper = mount(Cards)
+    expect(wrapper.find('div.card-header > div').text()).toMatch('Card title')
   })
   test('renders correctly', () => {
     const wrapper = mount(Cards)

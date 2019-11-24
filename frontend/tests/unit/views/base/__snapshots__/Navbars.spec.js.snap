@@ -1,519 +1,581 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Navbars.vue renders correctly 1`] = `
-<div>
-  <ccard-stub>
-    <ccardheader-stub>
-      <cicon-stub
-        name="cil-justify-center"
-      />
-       
-      <strong>
-         Bootstrap Navbar 
-      </strong>
-       
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <b-card-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      tag="div"
+      title=""
+      titletag="h4"
+    >
       <div
-        class="card-header-actions"
+        slot="header"
       >
-        <a
-          class="card-header-action"
-          href="https://coreui.io/vue/docs/components/navbar"
-          rel="noreferrer noopener"
-          target="_blank"
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Navbar 
+        </strong>
+         
+        <div
+          class="card-header-actions"
         >
-          <small
-            class="text-muted"
+          <a
+            class="card-header-action"
+            href="https://bootstrap-vue.js.org/docs/components/navbar"
+            rel="noreferrer noopener"
+            target="_blank"
           >
-            docs
-          </small>
-        </a>
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
       </div>
-    </ccardheader-stub>
-     
-    <ccardbody-stub>
-      <cnavbar-stub
-        color="info"
-        expandable="md"
+       
+      <b-navbar-stub
         tag="nav"
+        toggleable="md"
+        type="dark"
+        variant="info"
       >
-        <ctoggler-stub
-          innavbar="true"
-          tag="button"
+        <b-navbar-toggle-stub
+          label="Toggle navigation"
+          target="nav_collapse"
         />
          
-        <cnavbarbrand-stub
-          activeclass="active"
+        <b-navbar-brand-stub
           event="click"
-          exactactiveclass="active"
           href="#"
           routertag="a"
+          tag="div"
           target="_self"
         >
           NavBar
-        </cnavbarbrand-stub>
+        </b-navbar-brand-stub>
          
-        <ccollapse-stub
-          duration="400"
-          navbar="true"
-          transition="ease-in-out"
+        <b-collapse-stub
+          id="nav_collapse"
+          isnav="true"
+          tag="div"
         >
-          <cnavbarnav-stub
+          <b-navbar-nav-stub
             tag="ul"
           >
-            <cnavitem-stub
-              activeclass="active"
+            <b-nav-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
+              linkattrs="[object Object]"
               routertag="a"
               target="_self"
             >
               Link
-            </cnavitem-stub>
+            </b-nav-item-stub>
              
-            <cnavitem-stub
-              activeclass="active"
+            <b-nav-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               href="#"
+              linkattrs="[object Object]"
               routertag="a"
               target="_self"
             >
               Disabled
-            </cnavitem-stub>
-          </cnavbarnav-stub>
+            </b-nav-item-stub>
+          </b-navbar-nav-stub>
            
-          <cnavbarnav-stub
+          <b-navbar-nav-stub
             class="ml-auto"
             tag="ul"
           >
-            <cform-stub
-              inline="true"
-            >
-              <cinput-stub
+            <b-nav-form-stub>
+              <b-form-input-stub
                 class="mr-sm-2"
-                lazy="400"
                 placeholder="Search"
                 size="sm"
                 type="text"
+                value=""
               />
                
-              <cbutton-stub
-                activeclass="active"
+              <b-button-stub
                 class="my-2 my-sm-0"
-                color="light"
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
                 size="sm"
+                tag="button"
                 target="_self"
-                type="button"
+                type="submit"
+                variant="secondary"
               >
-                
                 Search
-              
-              </cbutton-stub>
-            </cform-stub>
+              </b-button-stub>
+            </b-nav-form-stub>
              
-            <cdropdown-stub
-              caret="true"
-              flip="true"
-              innav="true"
-              placement="bottom-end"
-              togglertext="Lang"
+            <b-nav-item-dropdown-stub
+              extramenuclasses=""
+              extratoggleclasses=""
+              offset="0"
+              right="true"
+              role="menu"
+              text="Lang"
             >
-              <cdropdownitem-stub
-                activeclass="active"
+              <b-dropdown-item-stub
                 event="click"
-                exactactiveclass="active"
+                href="#"
                 routertag="a"
                 target="_self"
               >
                 EN
-              </cdropdownitem-stub>
+              </b-dropdown-item-stub>
                
-              <cdropdownitem-stub
-                activeclass="active"
+              <b-dropdown-item-stub
                 event="click"
-                exactactiveclass="active"
+                href="#"
                 routertag="a"
                 target="_self"
               >
                 ES
-              </cdropdownitem-stub>
+              </b-dropdown-item-stub>
                
-              <cdropdownitem-stub
-                activeclass="active"
+              <b-dropdown-item-stub
                 event="click"
-                exactactiveclass="active"
+                href="#"
                 routertag="a"
                 target="_self"
               >
                 RU
-              </cdropdownitem-stub>
+              </b-dropdown-item-stub>
                
-              <cdropdownitem-stub
-                activeclass="active"
+              <b-dropdown-item-stub
                 event="click"
-                exactactiveclass="active"
+                href="#"
                 routertag="a"
                 target="_self"
               >
                 FA
-              </cdropdownitem-stub>
-            </cdropdown-stub>
+              </b-dropdown-item-stub>
+            </b-nav-item-dropdown-stub>
              
-            <cdropdown-stub
-              caret="true"
-              flip="true"
-              innav="true"
-              placement="bottom-end"
-              togglertext="User"
+            <b-nav-item-dropdown-stub
+              extramenuclasses=""
+              extratoggleclasses=""
+              offset="0"
+              right="true"
+              role="menu"
+              text=""
             >
-              <cdropdownitem-stub
-                activeclass="active"
+              <template>
+                <em>
+                  User
+                </em>
+              </template>
+               
+              <b-dropdown-item-stub
                 event="click"
-                exactactiveclass="active"
+                href="#"
                 routertag="a"
                 target="_self"
               >
                 Profile
-              </cdropdownitem-stub>
+              </b-dropdown-item-stub>
                
-              <cdropdownitem-stub
-                activeclass="active"
+              <b-dropdown-item-stub
                 event="click"
-                exactactiveclass="active"
+                href="#"
                 routertag="a"
                 target="_self"
               >
                 Signout
-              </cdropdownitem-stub>
-            </cdropdown-stub>
-          </cnavbarnav-stub>
-        </ccollapse-stub>
-      </cnavbar-stub>
-    </ccardbody-stub>
-  </ccard-stub>
-   
-  <ccard-stub>
-    <ccardheader-stub>
-      <cicon-stub
-        name="cil-justify-center"
-      />
-       
-      <strong>
-         Navbar 
-      </strong>
-       
-      <small>
-        brand
-      </small>
-    </ccardheader-stub>
+              </b-dropdown-item-stub>
+            </b-nav-item-dropdown-stub>
+          </b-navbar-nav-stub>
+        </b-collapse-stub>
+      </b-navbar-stub>
+    </b-card-stub>
      
-    <ccardbody-stub>
-      <cnavbar-stub
-        color="faded"
-        light="true"
-        tag="nav"
+    <b-card-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      tag="div"
+      title=""
+      titletag="h4"
+    >
+      <div
+        slot="header"
       >
-        <cnavbarbrand-stub
-          activeclass="active"
-          event="click"
-          exactactiveclass="active"
-          href="#"
-          routertag="a"
-          target="_self"
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Navbar 
+        </strong>
+         
+        <small>
+          brand
+        </small>
+      </div>
+       
+      <div>
+        <b-navbar-stub
+          tag="nav"
+          type="light"
+          variant="faded"
         >
-          <img
-            alt="CoreuiVue"
-            class="d-inline-block align-top"
-            src="https://placekitten.com/g/30/30"
-          />
+          <b-navbar-brand-stub
+            event="click"
+            href="#"
+            routertag="a"
+            tag="h1"
+            target="_self"
+          >
+            <img
+              alt="BV"
+              class="d-inline-block align-top"
+              src="https://placekitten.com/g/30/30"
+            />
+            
+            BootstrapVue
           
-          CoreuiVue
-        
-        </cnavbarbrand-stub>
-      </cnavbar-stub>
-    </ccardbody-stub>
-  </ccard-stub>
-   
-  <ccard-stub>
-    <ccardheader-stub>
-      <cicon-stub
-        name="cil-justify-center"
-      />
-       
-      <strong>
-         Navbar 
-      </strong>
-       
-      <small>
-        text
-      </small>
-    </ccardheader-stub>
+          </b-navbar-brand-stub>
+        </b-navbar-stub>
+      </div>
+    </b-card-stub>
      
-    <ccardbody-stub>
-      <cnavbar-stub
-        color="light"
-        light="true"
-        tag="nav"
-        toggleable="sm"
+    <b-card-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      tag="div"
+      title=""
+      titletag="h4"
+    >
+      <div
+        slot="header"
       >
-        <ctoggler-stub
-          innavbar="true"
-          tag="button"
+        <i
+          class="fa fa-align-justify"
         />
          
-        <cnavbarbrand-stub
-          activeclass="active"
-          event="click"
-          exactactiveclass="active"
-          routertag="a"
-          target="_self"
-        >
-          CoreuiVue
-        </cnavbarbrand-stub>
+        <strong>
+           Navbar 
+        </strong>
          
-        <ccollapse-stub
-          duration="400"
-          navbar="true"
-          transition="ease-in-out"
+        <small>
+          text
+        </small>
+      </div>
+       
+      <div>
+        <b-navbar-stub
+          tag="nav"
+          toggleable="true"
+          type="light"
+          variant="light"
         >
-          <cnavbarnav-stub
-            tag="ul"
-          >
-            <cnavbartext-stub
-              tag="div"
-            >
-              Navbar text
-            </cnavbartext-stub>
-          </cnavbarnav-stub>
-        </ccollapse-stub>
-      </cnavbar-stub>
-    </ccardbody-stub>
-  </ccard-stub>
-   
-  <ccard-stub>
-    <ccardheader-stub>
-      <cicon-stub
-        name="cil-justify-center"
-      />
-       
-      <strong>
-         Navbar 
-      </strong>
-       
-      <small>
-        dropdown
-      </small>
-    </ccardheader-stub>
-     
-    <ccardbody-stub>
-      <cnavbar-stub
-        color="primary"
-        expandable="sm"
-        tag="nav"
-      >
-        <ctoggler-stub
-          innavbar="true"
-          tag="button"
-        />
-         
-        <ccollapse-stub
-          duration="400"
-          navbar="true"
-          transition="ease-in-out"
-        >
-          <cnavbarnav-stub
-            tag="ul"
-          >
-            <cnavitem-stub
-              activeclass="active"
-              event="click"
-              exactactiveclass="active"
-              href="#"
-              routertag="a"
-              target="_self"
-            >
-              Home
-            </cnavitem-stub>
-             
-            <cnavitem-stub
-              activeclass="active"
-              event="click"
-              exactactiveclass="active"
-              href="#"
-              routertag="a"
-              target="_self"
-            >
-              Link
-            </cnavitem-stub>
-             
-            <cdropdown-stub
-              caret="true"
-              flip="true"
-              innav="true"
-              placement="bottom-end"
-              togglertext="Lang"
-            >
-              <cdropdownitem-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-              >
-                EN
-              </cdropdownitem-stub>
-               
-              <cdropdownitem-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-              >
-                ES
-              </cdropdownitem-stub>
-               
-              <cdropdownitem-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-              >
-                RU
-              </cdropdownitem-stub>
-               
-              <cdropdownitem-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-              >
-                FA
-              </cdropdownitem-stub>
-            </cdropdown-stub>
-             
-            <cdropdown-stub
-              caret="true"
-              flip="true"
-              innav="true"
-              placement="bottom-end"
-              togglertext="User"
-            >
-              <cdropdownitem-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-              >
-                Account
-              </cdropdownitem-stub>
-               
-              <cdropdownitem-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-              >
-                Settings
-              </cdropdownitem-stub>
-            </cdropdown-stub>
-          </cnavbarnav-stub>
-        </ccollapse-stub>
-      </cnavbar-stub>
-    </ccardbody-stub>
-  </ccard-stub>
-   
-  <ccard-stub>
-    <ccardheader-stub>
-      <cicon-stub
-        name="cil-justify-center"
-      />
-       
-      <strong>
-         Navbar 
-      </strong>
-       
-      <small>
-        form
-      </small>
-    </ccardheader-stub>
-     
-    <ccardbody-stub>
-      <cnavbar-stub
-        color="light"
-        light="true"
-        tag="nav"
-      >
-        <cform-stub
-          inline="true"
-        >
-          <cinput-stub
-            class="mr-sm-2"
-            lazy="400"
-            placeholder="Search"
-            size="sm"
-            type="text"
+          <b-navbar-toggle-stub
+            label="Toggle navigation"
+            target="nav_text_collapse"
           />
            
-          <cbutton-stub
-            activeclass="active"
-            class="my-2 my-sm-0"
-            color="outline-success"
+          <b-navbar-brand-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="div"
             target="_self"
-            type="submit"
           >
-            Search
-          </cbutton-stub>
-        </cform-stub>
-      </cnavbar-stub>
-    </ccardbody-stub>
-  </ccard-stub>
-   
-  <ccard-stub>
-    <ccardheader-stub>
-      <cicon-stub
-        name="cil-justify-center"
-      />
-       
-      <strong>
-         Navbar 
-      </strong>
-       
-      <small>
-        input group
-      </small>
-    </ccardheader-stub>
+            BootstrapVue
+          </b-navbar-brand-stub>
+           
+          <b-collapse-stub
+            id="nav_text_collapse"
+            isnav="true"
+            tag="div"
+          >
+            <b-navbar-nav-stub
+              tag="ul"
+            >
+              <b-nav-text-stub
+                tag="span"
+              >
+                Navbar text
+              </b-nav-text-stub>
+            </b-navbar-nav-stub>
+          </b-collapse-stub>
+        </b-navbar-stub>
+      </div>
+    </b-card-stub>
      
-    <ccardbody-stub>
-      <cnavbar-stub
-        color="light"
-        light="true"
-        tag="nav"
+    <b-card-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      tag="div"
+      title=""
+      titletag="h4"
+    >
+      <div
+        slot="header"
       >
-        <cform-stub
-          inline="true"
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Navbar 
+        </strong>
+         
+        <small>
+          dropdown
+        </small>
+      </div>
+       
+      <div>
+        <b-navbar-stub
+          tag="nav"
+          toggleable="true"
+          type="dark"
+          variant="primary"
         >
-          <cinput-stub
-            class="mr-sm-2"
-            lazy="400"
-            placeholder="Username"
-            type="text"
+          <b-navbar-toggle-stub
+            label="Toggle navigation"
+            target="nav_dropdown_collapse"
           />
-        </cform-stub>
-      </cnavbar-stub>
-    </ccardbody-stub>
-  </ccard-stub>
+           
+          <b-collapse-stub
+            id="nav_dropdown_collapse"
+            isnav="true"
+            tag="div"
+          >
+            <b-navbar-nav-stub
+              tag="ul"
+            >
+              <b-nav-item-stub
+                event="click"
+                href="#"
+                linkattrs="[object Object]"
+                routertag="a"
+                target="_self"
+              >
+                Home
+              </b-nav-item-stub>
+               
+              <b-nav-item-stub
+                event="click"
+                href="#"
+                linkattrs="[object Object]"
+                routertag="a"
+                target="_self"
+              >
+                Link
+              </b-nav-item-stub>
+               
+              <b-nav-item-dropdown-stub
+                extramenuclasses=""
+                extratoggleclasses=""
+                offset="0"
+                right="true"
+                role="menu"
+                text="Lang"
+              >
+                <b-dropdown-item-stub
+                  event="click"
+                  href="#"
+                  routertag="a"
+                  target="_self"
+                >
+                  EN
+                </b-dropdown-item-stub>
+                 
+                <b-dropdown-item-stub
+                  event="click"
+                  href="#"
+                  routertag="a"
+                  target="_self"
+                >
+                  ES
+                </b-dropdown-item-stub>
+                 
+                <b-dropdown-item-stub
+                  event="click"
+                  href="#"
+                  routertag="a"
+                  target="_self"
+                >
+                  RU
+                </b-dropdown-item-stub>
+                 
+                <b-dropdown-item-stub
+                  event="click"
+                  href="#"
+                  routertag="a"
+                  target="_self"
+                >
+                  FA
+                </b-dropdown-item-stub>
+              </b-nav-item-dropdown-stub>
+               
+              <b-nav-item-dropdown-stub
+                extramenuclasses=""
+                extratoggleclasses=""
+                offset="0"
+                right="true"
+                role="menu"
+                text="User"
+              >
+                <b-dropdown-item-stub
+                  event="click"
+                  href="#"
+                  routertag="a"
+                  target="_self"
+                >
+                  Account
+                </b-dropdown-item-stub>
+                 
+                <b-dropdown-item-stub
+                  event="click"
+                  href="#"
+                  routertag="a"
+                  target="_self"
+                >
+                  Settings
+                </b-dropdown-item-stub>
+              </b-nav-item-dropdown-stub>
+            </b-navbar-nav-stub>
+          </b-collapse-stub>
+        </b-navbar-stub>
+      </div>
+    </b-card-stub>
+     
+    <b-card-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      tag="div"
+      title=""
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Navbar 
+        </strong>
+         
+        <small>
+          form
+        </small>
+      </div>
+       
+      <div>
+        <b-navbar-stub
+          tag="nav"
+          type="light"
+          variant="light"
+        >
+          <b-nav-form-stub>
+            <b-form-input-stub
+              class="mr-sm-2"
+              placeholder="Search"
+              type="text"
+              value=""
+            />
+             
+            <b-button-stub
+              class="my-2 my-sm-0"
+              event="click"
+              routertag="a"
+              tag="button"
+              target="_self"
+              type="submit"
+              variant="outline-success"
+            >
+              Search
+            </b-button-stub>
+          </b-nav-form-stub>
+        </b-navbar-stub>
+      </div>
+    </b-card-stub>
+     
+    <b-card-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitle=""
+      subtitletag="h6"
+      subtitletextvariant="muted"
+      tag="div"
+      title=""
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Navbar 
+        </strong>
+         
+        <small>
+          input group
+        </small>
+      </div>
+       
+      <div>
+        <b-navbar-stub
+          tag="nav"
+          type="light"
+          variant="light"
+        >
+          <b-nav-form-stub>
+            <b-input-group-stub
+              left="@"
+              tag="div"
+            >
+              <b-form-input-stub
+                class="mr-sm-2"
+                placeholder="Username"
+                type="text"
+                value=""
+              />
+            </b-input-group-stub>
+          </b-nav-form-stub>
+        </b-navbar-stub>
+      </div>
+    </b-card-stub>
+  </div>
 </div>
 `;

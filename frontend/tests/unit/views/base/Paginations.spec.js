@@ -1,13 +1,13 @@
 import Vue from 'vue'
-import { shallowMount } from '@vue/test-utils'
-import CoreuiVue from '@coreui/vue'
+import { shallowMount, mount } from '@vue/test-utils'
+import BootstrapVue from 'bootstrap-vue'
 import Paginations from '@/views/base/Paginations'
 
-Vue.use(CoreuiVue)
+Vue.use(BootstrapVue)
 
 describe('Paginations.vue', () => {
   it('has a name', () => {
-    expect(Paginations.name).toBe('Paginations')
+    expect(Paginations.name).toMatch('paginations')
   })
   it('has a created hook', () => {
     expect(typeof Paginations.data).toMatch('function')
@@ -24,6 +24,10 @@ describe('Paginations.vue', () => {
   it('is Paginations', () => {
     const wrapper = shallowMount(Paginations)
     expect(wrapper.is(Paginations)).toBe(true)
+  })
+  it('should render correct content', () => {
+    const wrapper = mount(Paginations)
+    expect(wrapper.find('header.card-header > div > strong').text()).toMatch('Bootstrap Pagination')
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Paginations)

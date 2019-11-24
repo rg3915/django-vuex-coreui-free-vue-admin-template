@@ -1,997 +1,1015 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ListGroups.vue renders correctly 1`] = `
-<div>
-  <crow-stub
-    gutters="true"
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
   >
-    <ccol-stub
-      md="6"
+    <b-row-stub
       tag="div"
     >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-           
-          <strong>
-             Bootstrap list group 
-          </strong>
-           
+      <b-col-stub
+        md="6"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
           <div
-            class="card-header-actions"
+            slot="header"
           >
-            <a
-              class="card-header-action"
-              href="https://coreui.io/vue/docs/components/list-group"
-              rel="noreferrer noopener"
-              target="_blank"
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               Bootstrap list group 
+            </strong>
+             
+            <div
+              class="card-header-actions"
             >
-              <small
-                class="text-muted"
+              <a
+                class="card-header-action"
+                href="https://bootstrap-vue.js.org/docs/components/list-group"
+                rel="noreferrer noopener"
+                target="_blank"
               >
-                docs
-              </small>
-            </a>
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
           </div>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <clistgroup-stub
-            tag="ul"
+           
+          <b-list-group-stub
+            tag="div"
           >
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Cras justo odio
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Dapibus ac facilisis in
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Morbi leo risus
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Porta ac consectetur ac
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Vestibulum at eros
-            </clistgroupitem-stub>
-          </clistgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-     
-    <ccol-stub
-      md="6"
-      tag="div"
-    >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-          <strong>
-             List group 
-          </strong>
-          <small>
-            active items
-          </small>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <clistgroup-stub
-            tag="ul"
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+       
+      <b-col-stub
+        md="6"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
+          <div
+            slot="header"
           >
-            <clistgroupitem-stub
-              activeclass="active"
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              active items
+            </small>
+          </div>
+           
+          <b-list-group-stub
+            tag="div"
+          >
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Cras justo odio
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
+            <b-list-group-item-stub
               active="true"
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Dapibus ac facilisis in
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Morbi leo risus
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Porta ac consectetur ac
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Vestibulum at eros
-            </clistgroupitem-stub>
-          </clistgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-  </crow-stub>
-   
-  <crow-stub
-    gutters="true"
-  >
-    <ccol-stub
-      md="6"
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
+     
+    <b-row-stub
       tag="div"
     >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-           
-          <strong>
-             List group 
-          </strong>
-           
-          <small>
-            disabled items
-          </small>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <clistgroup-stub
-            tag="ul"
+      <b-col-stub
+        md="6"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
+          <div
+            slot="header"
           >
-            <clistgroupitem-stub
-              activeclass="active"
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              disabled items
+            </small>
+          </div>
+           
+          <b-list-group-stub
+            tag="div"
+          >
+            <b-list-group-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Cras justo odio
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Dapibus ac facilisis in
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Morbi leo risus
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Porta ac consectetur ac
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Vestibulum at eros
-            </clistgroupitem-stub>
-          </clistgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-     
-    <ccol-stub
-      md="6"
-      tag="div"
-    >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-           
-          <strong>
-             List group 
-          </strong>
-           
-          <small>
-            actionable items
-          </small>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <clistgroup-stub
-            tag="ul"
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+       
+      <b-col-stub
+        md="6"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
+          <div
+            slot="header"
           >
-            <clistgroupitem-stub
-              activeclass="active"
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              actionable items
+            </small>
+          </div>
+           
+          <b-list-group-stub
+            tag="div"
+          >
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#some-link"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Awesome link
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
+            <b-list-group-item-stub
               active="true"
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Link with active state
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Action links are easy
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               href="#foobar"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               Disabled link
-            </clistgroupitem-stub>
-          </clistgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-  </crow-stub>
-   
-  <crow-stub
-    gutters="true"
-  >
-    <ccol-stub
-      md="6"
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
+     
+    <b-row-stub
       tag="div"
     >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-           
-          <strong>
-             List group 
-          </strong>
-           
-          <small>
-            buttons
-          </small>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <clistgroup-stub
-            tag="ul"
+      <b-col-stub
+        md="6"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
+          <div
+            slot="header"
           >
-            <clistgroupitem-stub
-              activeclass="active"
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              buttons
+            </small>
+          </div>
+           
+          <b-list-group-stub
+            tag="div"
+          >
+            <b-list-group-item-stub
+              button="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="button"
+              tag="div"
               target="_self"
             >
               Button item
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
+              button="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="button"
+              tag="div"
               target="_self"
             >
               I am a button
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
+              button="true"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="button"
+              tag="div"
               target="_self"
             >
               Disabled button
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
+              button="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="button"
+              tag="div"
               target="_self"
             >
               This is a button too
-            </clistgroupitem-stub>
-          </clistgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-     
-    <ccol-stub
-      md="6"
-      tag="div"
-    >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-           
-          <strong>
-             List group 
-          </strong>
-           
-          <small>
-            with badges
-          </small>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <clistgroup-stub
-            tag="ul"
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+       
+      <b-col-stub
+        md="6"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
+          <div
+            slot="header"
           >
-            <clistgroupitem-stub
-              activeclass="active"
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              with badges
+            </small>
+          </div>
+           
+          <b-list-group-stub
+            tag="div"
+          >
+            <b-list-group-item-stub
               class="d-flex justify-content-between align-items-center"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               
               Cras justo odio
               
-              <cbadge-stub
-                activeclass="active"
-                color="primary"
+              <b-badge-stub
                 event="click"
-                exactactiveclass="active"
+                pill="true"
                 routertag="a"
-                shape="pill"
                 tag="span"
                 target="_self"
+                variant="primary"
               >
                 14
-              </cbadge-stub>
-            </clistgroupitem-stub>
+              </b-badge-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               class="d-flex justify-content-between align-items-center"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               
               Dapibus ac facilisis in
               
-              <cbadge-stub
-                activeclass="active"
-                color="primary"
+              <b-badge-stub
                 event="click"
-                exactactiveclass="active"
+                pill="true"
                 routertag="a"
-                shape="pill"
                 tag="span"
                 target="_self"
+                variant="primary"
               >
                 2
-              </cbadge-stub>
-            </clistgroupitem-stub>
+              </b-badge-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               class="d-flex justify-content-between align-items-center"
               event="click"
-              exactactiveclass="active"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               
               Morbi leo risus
               
-              <cbadge-stub
-                activeclass="active"
-                color="primary"
+              <b-badge-stub
                 event="click"
-                exactactiveclass="active"
+                pill="true"
                 routertag="a"
-                shape="pill"
                 tag="span"
                 target="_self"
+                variant="primary"
               >
                 1
-              </cbadge-stub>
-            </clistgroupitem-stub>
-          </clistgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-  </crow-stub>
-   
-  <crow-stub
-    gutters="true"
-  >
-    <ccol-stub
-      md="6"
-      tag="div"
-    >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-           
-          <strong>
-             List group 
-          </strong>
-           
-          <small>
-            colors
-          </small>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <clistgroup-stub
-            tag="ul"
-          >
-            <clistgroupitem-stub
-              activeclass="active"
-              event="click"
-              exactactiveclass="active"
-              routertag="a"
-              tag="li"
-              target="_self"
-            >
-              This is a default list group item
-            </clistgroupitem-stub>
-             
-            <clistgroupitem-stub
-              activeclass="active"
-              color="primary"
-              event="click"
-              exactactiveclass="active"
-              routertag="a"
-              tag="li"
-              target="_self"
-            >
-              This is a primary list group item
-            </clistgroupitem-stub>
-             
-            <clistgroupitem-stub
-              activeclass="active"
-              color="secondary"
-              event="click"
-              exactactiveclass="active"
-              routertag="a"
-              tag="li"
-              target="_self"
-            >
-              This is a secondary list group item
-            </clistgroupitem-stub>
-             
-            <clistgroupitem-stub
-              activeclass="active"
-              color="success"
-              event="click"
-              exactactiveclass="active"
-              routertag="a"
-              tag="li"
-              target="_self"
-            >
-              This is a success list group item
-            </clistgroupitem-stub>
-             
-            <clistgroupitem-stub
-              activeclass="active"
-              color="danger"
-              event="click"
-              exactactiveclass="active"
-              routertag="a"
-              tag="li"
-              target="_self"
-            >
-              This is a danger list group item
-            </clistgroupitem-stub>
-             
-            <clistgroupitem-stub
-              activeclass="active"
-              color="warning"
-              event="click"
-              exactactiveclass="active"
-              routertag="a"
-              tag="li"
-              target="_self"
-            >
-              This is a warning list group item
-            </clistgroupitem-stub>
-             
-            <clistgroupitem-stub
-              activeclass="active"
-              color="info"
-              event="click"
-              exactactiveclass="active"
-              routertag="a"
-              tag="li"
-              target="_self"
-            >
-              This is a info list group item
-            </clistgroupitem-stub>
-             
-            <clistgroupitem-stub
-              activeclass="active"
-              color="light"
-              event="click"
-              exactactiveclass="active"
-              routertag="a"
-              tag="li"
-              target="_self"
-            >
-              This is a light list group item
-            </clistgroupitem-stub>
-             
-            <clistgroupitem-stub
-              activeclass="active"
-              color="dark"
-              event="click"
-              exactactiveclass="active"
-              routertag="a"
-              tag="li"
-              target="_self"
-            >
-              This is a dark list group item
-            </clistgroupitem-stub>
-          </clistgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
+              </b-badge-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
      
-    <ccol-stub
-      md="6"
+    <b-row-stub
       tag="div"
     >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-           
-          <strong>
-             List group 
-          </strong>
-           
-          <small>
-            colors active
-          </small>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <clistgroup-stub
-            tag="ul"
+      <b-col-stub
+        md="6"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
+          <div
+            slot="header"
           >
-            <clistgroupitem-stub
-              activeclass="active"
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              variants
+            </small>
+          </div>
+           
+          <b-list-group-stub
+            tag="div"
+          >
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
-              href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               This is a default list group item
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
-              color="primary"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
-              href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
+              variant="primary"
             >
               This is a primary list group item
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
-              color="secondary"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
-              href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
+              variant="secondary"
             >
               This is a secondary list group item
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
-              color="success"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
-              href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
+              variant="success"
             >
               This is a success list group item
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
-              color="danger"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
-              href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
+              variant="danger"
             >
               This is a danger list group item
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
-              color="warning"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
-              href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
+              variant="warning"
             >
               This is a warning list group item
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
-              color="info"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
-              href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
+              variant="info"
             >
               This is a info list group item
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
-              color="light"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
-              href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
+              variant="light"
             >
               This is a light list group item
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
-              color="dark"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
-              href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
+              variant="dark"
             >
               This is a dark list group item
-            </clistgroupitem-stub>
-          </clistgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-  </crow-stub>
-   
-  <crow-stub
-    gutters="true"
-  >
-    <ccol-stub
-      col="12"
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+       
+      <b-col-stub
+        md="6"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              variants active
+            </small>
+          </div>
+           
+          <b-list-group-stub
+            tag="div"
+          >
+            <b-list-group-item-stub
+              event="click"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              This is a default list group item
+            </b-list-group-item-stub>
+             
+            <b-list-group-item-stub
+              event="click"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="primary"
+            >
+              This is a primary list group item
+            </b-list-group-item-stub>
+             
+            <b-list-group-item-stub
+              event="click"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="secondary"
+            >
+              This is a secondary list group item
+            </b-list-group-item-stub>
+             
+            <b-list-group-item-stub
+              event="click"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="success"
+            >
+              This is a success list group item
+            </b-list-group-item-stub>
+             
+            <b-list-group-item-stub
+              event="click"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="danger"
+            >
+              This is a danger list group item
+            </b-list-group-item-stub>
+             
+            <b-list-group-item-stub
+              event="click"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="warning"
+            >
+              This is a warning list group item
+            </b-list-group-item-stub>
+             
+            <b-list-group-item-stub
+              event="click"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="info"
+            >
+              This is a info list group item
+            </b-list-group-item-stub>
+             
+            <b-list-group-item-stub
+              event="click"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="light"
+            >
+              This is a light list group item
+            </b-list-group-item-stub>
+             
+            <b-list-group-item-stub
+              event="click"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="dark"
+            >
+              This is a dark list group item
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
+     
+    <b-row-stub
       tag="div"
     >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-           
-          <strong>
-             List group 
-          </strong>
-           
-          <small>
-            inside cards
-          </small>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <ccardgroup-stub
-            deck="true"
+      <b-col-stub
+        cols="12"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
+          <div
+            slot="header"
           >
-            <ccard-stub>
-              <ccardheader-stub>
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              inside cards
+            </small>
+          </div>
+           
+          <b-card-group-stub
+            deck="true"
+            tag="div"
+          >
+            <b-card-stub
+              bodytag="div"
+              footertag="div"
+              headertag="div"
+              subtitle=""
+              subtitletag="h6"
+              subtitletextvariant="muted"
+              tag="div"
+              title=""
+              titletag="h4"
+            >
+              <div
+                slot="header"
+              >
                 <b>
                   Card with list group
                 </b>
-              </ccardheader-stub>
+              </div>
                
-              <ccardbody-stub>
-                <clistgroup-stub
-                  tag="ul"
-                >
-                  <clistgroupitem-stub
-                    activeclass="active"
-                    event="click"
-                    exactactiveclass="active"
-                    href="#"
-                    routertag="a"
-                    tag="li"
-                    target="_self"
-                  >
-                    Cras justo odio
-                  </clistgroupitem-stub>
-                   
-                  <clistgroupitem-stub
-                    activeclass="active"
-                    event="click"
-                    exactactiveclass="active"
-                    href="#"
-                    routertag="a"
-                    tag="li"
-                    target="_self"
-                  >
-                    Dapibus ac facilisis in
-                  </clistgroupitem-stub>
-                   
-                  <clistgroupitem-stub
-                    activeclass="active"
-                    event="click"
-                    exactactiveclass="active"
-                    href="#"
-                    routertag="a"
-                    tag="li"
-                    target="_self"
-                  >
-                    Vestibulum at eros
-                  </clistgroupitem-stub>
-                </clistgroup-stub>
-                 
-                <ccardtext-stub
-                  class="mt-2"
-                >
-                  
-                  Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
-                  nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
-                  consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
-                  ad sit ipsum anim Lorem.
-                
-                </ccardtext-stub>
-              </ccardbody-stub>
-            </ccard-stub>
-             
-            <ccard-stub>
-              <ccardheader-stub>
-                <b>
-                  Card with flush list group
-                </b>
-              </ccardheader-stub>
-               
-              <clistgroup-stub
-                flush="true"
-                tag="ul"
+              <b-list-group-stub
+                tag="div"
               >
-                <clistgroupitem-stub
-                  activeclass="active"
+                <b-list-group-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
-                  tag="li"
+                  tag="div"
                   target="_self"
                 >
                   Cras justo odio
-                </clistgroupitem-stub>
+                </b-list-group-item-stub>
                  
-                <clistgroupitem-stub
-                  activeclass="active"
+                <b-list-group-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
-                  tag="li"
+                  tag="div"
                   target="_self"
                 >
                   Dapibus ac facilisis in
-                </clistgroupitem-stub>
+                </b-list-group-item-stub>
                  
-                <clistgroupitem-stub
-                  activeclass="active"
+                <b-list-group-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
-                  tag="li"
+                  tag="div"
                   target="_self"
                 >
                   Vestibulum at eros
-                </clistgroupitem-stub>
-              </clistgroup-stub>
+                </b-list-group-item-stub>
+              </b-list-group-stub>
                
-              <ccardbody-stub>
+              <p
+                class="card-text mt-2"
+              >
                 
                 Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
                 nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
                 consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
                 ad sit ipsum anim Lorem.
               
-              </ccardbody-stub>
-            </ccard-stub>
-          </ccardgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-  </crow-stub>
-   
-  <crow-stub
-    gutters="true"
-  >
-    <ccol-stub
-      md="6"
+              </p>
+            </b-card-stub>
+             
+            <b-card-stub
+              bodytag="div"
+              footertag="div"
+              headertag="div"
+              nobody="true"
+              subtitle=""
+              subtitletag="h6"
+              subtitletextvariant="muted"
+              tag="div"
+              title=""
+              titletag="h4"
+            >
+              <div
+                slot="header"
+              >
+                <b>
+                  Card with flush list group
+                </b>
+              </div>
+               
+              <b-list-group-stub
+                flush="true"
+                tag="div"
+              >
+                <b-list-group-item-stub
+                  event="click"
+                  href="#"
+                  routertag="a"
+                  tag="div"
+                  target="_self"
+                >
+                  Cras justo odio
+                </b-list-group-item-stub>
+                 
+                <b-list-group-item-stub
+                  event="click"
+                  href="#"
+                  routertag="a"
+                  tag="div"
+                  target="_self"
+                >
+                  Dapibus ac facilisis in
+                </b-list-group-item-stub>
+                 
+                <b-list-group-item-stub
+                  event="click"
+                  href="#"
+                  routertag="a"
+                  tag="div"
+                  target="_self"
+                >
+                  Vestibulum at eros
+                </b-list-group-item-stub>
+              </b-list-group-stub>
+               
+              <b-card-body-stub
+                bodytag="div"
+                subtitle=""
+                subtitletag="h6"
+                subtitletextvariant="muted"
+                title=""
+                titletag="h4"
+              >
+                
+                Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
+                nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
+                consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
+                ad sit ipsum anim Lorem.
+              
+              </b-card-body-stub>
+            </b-card-stub>
+          </b-card-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
+     
+    <b-row-stub
       tag="div"
     >
-      <ccard-stub>
-        <ccardheader-stub>
-          <cicon-stub
-            name="cil-justify-center"
-          />
-          <strong>
-             List group 
-          </strong>
-          <small>
-            custom content
-          </small>
-        </ccardheader-stub>
-         
-        <ccardbody-stub>
-          <clistgroup-stub
-            tag="ul"
+      <b-col-stub
+        md="6"
+        tag="div"
+      >
+        <b-card-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitle=""
+          subtitletag="h6"
+          subtitletextvariant="muted"
+          tag="div"
+          title=""
+          titletag="h4"
+        >
+          <div
+            slot="header"
           >
-            <clistgroupitem-stub
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              custom content
+            </small>
+          </div>
+           
+          <b-list-group-stub
+            tag="div"
+          >
+            <b-list-group-item-stub
               active="true"
-              activeclass="active"
               class="flex-column align-items-start"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               <div
@@ -1020,16 +1038,14 @@ exports[`ListGroups.vue renders correctly 1`] = `
               <small>
                 Donec id elit non mi porta.
               </small>
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               class="flex-column align-items-start"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               <div
@@ -1062,17 +1078,15 @@ exports[`ListGroups.vue renders correctly 1`] = `
               >
                 Donec id elit non mi porta.
               </small>
-            </clistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <clistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               class="flex-column align-items-start"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="li"
+              tag="div"
               target="_self"
             >
               <div
@@ -1105,11 +1119,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
               >
                 Donec id elit non mi porta.
               </small>
-            </clistgroupitem-stub>
-          </clistgroup-stub>
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-  </crow-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
+  </div>
 </div>
 `;
