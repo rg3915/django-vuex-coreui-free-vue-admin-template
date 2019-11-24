@@ -19,12 +19,12 @@ export default new Vuex.Store({
         },
         EDIT_PRODUCT(state, obj) {
             const products = [...state.products]
-            const index = products.findIndex(p => p.id == obj.id);
-            products[index] = { ...obj };  
+            const index = products.findIndex(p => p.pk == obj.pk);
+            products[index] = { ...obj };
             state.products = products;
         },
         DELETE_PRODUCT(state, obj) {
-            state.products = state.products.filter(p => p.id !== obj.id);
+            state.products = state.products.filter(p => p.pk !== obj.pk);
         }
     },
     actions: {
@@ -45,12 +45,12 @@ export default new Vuex.Store({
         editProduct(options, obj) {
             let bodyFormData = new FormData()
             bodyFormData.append('obj', JSON.stringify(obj))
-            axios.put(endpoint + '/product/' + obj.id, bodyFormData)
+            axios.post(endpoint + '/product/' + obj.pk + '/', bodyFormData)
             .then(response => {
-              options.commit('EDIT_PRODUCT', response.data);
+              options.commit('EDIT_PRODUCT', response.data.data);
             })
         },
-        deleteProduct(options, obj) {
+        deletePdroduct(options, obj) {
             options.commit('DELETE_PRODUCT', obj);
         }
     }

@@ -11,7 +11,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="product in $store.state.products" :key="product.id">
+                <tr v-for="product in $store.state.products" :key="product.pk">
                     <td>{{ product.name }}</td>
                     <td>{{ product.price }}</td>
                     <td>
@@ -53,7 +53,7 @@ export default {
     },
     methods: {
         sendProduct() {
-            if (!this.editingProduct.id) {
+            if (!this.editingProduct.pk) {
                 // Aqui está adicionando, logo no axios seria um post
                 this.$store.dispatch('addProduct', this.editingProduct);
             } else {
