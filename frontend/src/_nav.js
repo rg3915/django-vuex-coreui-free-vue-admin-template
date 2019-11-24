@@ -11,6 +11,20 @@ export default {
     },
     {
       title: true,
+      name: 'Products',
+      class: '',
+      wrapper: {
+        element: '',
+        attributes: {}
+      }
+    },
+    {
+      name: 'Products',
+      url: '/products',
+      icon: 'icon-drop'
+    },
+    {
+      title: true,
       name: 'Theme',
       class: '',
       wrapper: {
