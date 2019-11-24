@@ -4,8 +4,8 @@ from .models import Product
 
 def products_json(request):
     items = Product.objects.all()
-    products = [item.to_dict_json() for item in items]
-    response = {'products': products}
+    data = [item.to_dict_json() for item in items]
+    response = {'data': data}
     return JsonResponse(response)
 
 

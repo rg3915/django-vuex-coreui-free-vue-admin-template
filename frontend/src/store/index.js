@@ -31,7 +31,7 @@ export default new Vuex.Store({
         loadProducts(options) {
             axios.get(endpoint + '/product/')
             .then(response => {
-                options.commit('SET_PRODUCTS', response.data);
+                options.commit('SET_PRODUCTS', response.data.data);
             })
         },
         addProduct(options, obj) {
