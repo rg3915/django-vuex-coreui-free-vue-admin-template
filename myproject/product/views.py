@@ -14,25 +14,30 @@ def products_json(request):
 @csrf_exempt
 def products_add(request):
     data = json.loads(request.POST.get('obj'))
+    # get values
     name = data['name']
-    price = data['price']
-    #price = _price.replace(',', '.')
-    item = Product.objects.create(name=name, price=price)
-    data = [item.to_dict_json()]
-    response = {'data': data}
-    return JsonResponse(response)
+    _price = data['price']
+    price = _price.replace(',', '.')
+    # create object
+    obj = Product.objects.create(name=name, price=price)
+    # return data serialized
+    data = obj.to_dict_json()
+    return JsonResponse(data)
 
 
 @csrf_exempt
 def products_edit(request, pk):
     data = json.loads(request.POST.get('obj'))
+    # get values
     name = data['name']
     _price = data['price']
     price = _price.replace(',', '.')
+    # get object
     obj = Product.objects.get(pk=pk)
+    # edit values
     obj.name = name
     obj.price = price
     obj.save()
+    # return data serialized
     data = obj.to_dict_json()
-    response = {'data': data}
-    return JsonResponse(response)
+    return JsonResponse(data)
