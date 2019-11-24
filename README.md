@@ -114,7 +114,7 @@ nvm use 11
 
 # Baixando o template Coreui Free Vue Admin Template
 # e renomeando para `frontend`
-git clone https://github.com/coreui/coreui-free-vue-admin-template.git frontend
+git clone https://github.com/coreui/coreui-free-vue-admin-template frontend
 cd frontend
 npm install
 ```
