@@ -1,96 +1,43 @@
 <template>
-  <CRow>
-    <CCol col>
-      <CCard>
-        <CCardHeader>
-          <CIcon name="cil-justify-center"/><strong> Bootstrap Breadcrumb</strong>
-          <div class="card-header-actions">
-            <a 
-              href="https://coreui.io/vue/docs/components/breadcrumb" 
-              class="card-header-action" 
-              rel="noreferrer noopener" 
-              target="_blank"
-            >
-              <small class="text-muted">docs</small>
-            </a>
-          </div>
-        </CCardHeader>
-        <CCardBody>
-          <CBreadcrumb :items="items"/>
-          <CBreadcrumb :items="items2"/>
-          <CBreadcrumb :items="items3"/>
-        </CCardBody>
-      </CCard>
-    </CCol>
-  </CRow>
+  <div class="wrapper">
+    <div class="animated fadeIn">
+      <b-row>
+        <b-col cols="12">
+          <b-card
+            header-tag="header"
+            footer-tag="footer">
+            <div slot="header">
+              <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>
+              <div class="card-header-actions">
+                <a href="https://bootstrap-vue.js.org/docs/components/breadcrumb" class="card-header-action" rel="noreferrer noopener" target="_blank">
+                  <small class="text-muted">docs</small>
+                </a>
+              </div>
+            </div>
+            <b-breadcrumb :items="items"/>
+          </b-card>
+        </b-col>
+      </b-row>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Breadcrumbs',
+  name: 'breadcrumbs',
   data () {
     return {
-      items: [
-        {
-          text: 'Admin',
-          href: '#'
-        }, 
-        {
-          text: 'Manage',
-          href: '#'
-        }, 
-        {
-          text: 'Library'
-        }
-      ],
-
-
-      items2: [
-        {
-          text: 'Go to dashboard',
-          to: '/dashboard'
-        }, 
-        {
-          text: 'Go to widgets',
-          to: '/Widgets'
-        }, 
-        {
-          text: 'Go to Google',
-          href: 'http://google.com'
-        },
-        {
-          text: 'Current page'
-        }
-      ],
-
-
-      items3: [
-        {
-          text: 'Added',
-          to: '#2',
-          addClasses: 'font-xl'
-        }, 
-        {
-          text: 'Custom',
-          to: '#3',
-          addClasses: 'font-xl'
-        },
-        {
-          text: 'Classes',
-          to: '#4',
-          addClasses: 'font-xl text-danger'
-        }
-      ]
+      items: [{
+        text: 'Admin',
+        href: '#'
+      }, {
+        text: 'Manage',
+        href: '#'
+      }, {
+        text: 'Library',
+        active: true
+      }]
     }
   }
 }
 </script>
-
-<style>
-  .breadcrumb-item + .font-xl.breadcrumb-item::before {
-    color: rgb(140, 195, 38);
-    content: '>>';
-    padding: 0px 10px;
-
-  }
-</style>

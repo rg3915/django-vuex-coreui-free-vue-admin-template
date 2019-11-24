@@ -17,7 +17,7 @@
 import { rgbToHex } from '@coreui/coreui/dist/js/coreui-utilities'
 export default {
   name: 'ColorView',
-  data () {
+  data: function () {
     return {
       bgColor: 'rgb(255, 255, 255)'
     }
@@ -39,3 +39,4 @@ export default {
   }
 }
 </script>
+

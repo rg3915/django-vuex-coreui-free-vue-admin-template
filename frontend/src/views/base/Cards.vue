@@ -1,284 +1,264 @@
 <template>
-  <div>
-    <CRow>
-      <CCol sm="6" md="4">
-        <CCard>
-          <CCardHeader>
-            Card title
-            <div class="card-header-actions">
-              <a 
-                href="https://coreui.io/vue/docs/components/card-components" 
-                class="card-header-action" 
-                rel="noreferrer noopener" 
-                target="_blank"
-              >
-                <small class="text-muted">docs</small>
-              </a>
-            </div>
-          </CCardHeader>
-          <CCardBody>
-            {{loremIpsum}}
-          </CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-          <CCardFooter>Card Footer</CCardFooter>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard>
-          <CCardHeader><CIcon name="cil-check"/> Card with icon</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard>
-          <CCardHeader>
+  <div class="animated fadeIn">
+    <b-row>
+      <b-col sm="6" md="4">
+        <b-card header="Card title">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card show-footer>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          <div slot="footer">Card footer</div>
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card>
+          <div slot="header"><i class='fa fa-check'></i> Card with icon</div>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card>
+          <div slot="header">
             Card with switch
-            <CSwitch
-              class="float-right"
-              size="sm"
-              shape="pill"
-              color="info"
-              data-on="On"
-              data-off="Off"
-              :checked="true"
-            />
-          </CCardHeader>
-          <CCardBody>
-            {{loremIpsum}}
-          </CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard>
-          <CCardHeader>
+            <div class="card-header-actions" style="height: 21px;">
+              <c-switch size="sm" color="info" checked label />
+            </div>
+          </div>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card>
+          <div slot="header">
             Card with label
-            <CBadge color="success" class="float-right">Success</CBadge>
-          </CCardHeader>
-          <CCardBody>
-            {{loremIpsum}}
-          </CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard>
-          <CCardHeader>
+            <div class="card-header-actions">
+              <b-badge variant="success">Success</b-badge>
+            </div>
+          </div>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card>
+          <div slot="header">
             Card with label
-            <CBadge shape="pill" color="danger" class="float-right">42</CBadge>
-          </CCardHeader>
-          <CCardBody>
-            {{loremIpsum}}
-          </CCardBody>
-        </CCard>
-      </CCol>
-    </CRow>
-    <CRow>
-      <CCol sm="6" md="4">
-        <CCard border-color="primary">
-          <CCardHeader>Card outline primary</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard border-color="secondary">
-          <CCardHeader>Card outline secondary</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard border-color="success">
-          <CCardHeader>Card outline success</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard border-color="info">
-          <CCardHeader>Card outline info</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard border-color="warning">
-          <CCardHeader>Card outline warning</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard border-color="danger">
-          <CCardHeader>Card outline danger</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-    </CRow>
+            <div class="card-header-actions">
+              <b-badge pill variant="danger">42</b-badge>
+            </div>
+          </div>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline primary" border-variant="primary">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline secondary" border-variant="secondary">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline success" border-variant="success">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline info" border-variant="info">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline warning" border-variant="warning">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline danger" border-variant="danger">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+    </b-row><!--/.row-->
 
-    <CRow>
-      <CCol sm="6" md="4">
-        <CCard accent-color="primary">
-          <CCardHeader>Card with primary accent</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard accent-color="secondary">
-          <CCardHeader>Card with secondary accent</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard accent-color="success">
-          <CCardHeader>Card with success accent</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard accent-color="info">
-          <CCardHeader>Card with info accent</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard accent-color="info">
-          <CCardHeader>Card with info accent</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard accent-color="danger">
-          <CCardHeader>Card with danger accent</CCardHeader>
-          <CCardBody>{{loremIpsum}}</CCardBody>
-        </CCard>
-      </CCol>
-    </CRow>
-    <CRow>
-      <CCol sm="6" md="4">
-        <CCard color="primary" class="text-center" body-wrapper>
+    <b-row>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-primary" header="Card with primary accent">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-secondary" header="Card with secondary accent">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-success" header="Card with success accent">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-info" header="Card with info accent">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-warning" header="Card with warning accent">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-danger" header="Card with danger accent">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col sm="6" md="4">
+        <b-card class="bg-primary text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
             </footer>
           </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard color="success" class="text-center" body-wrapper>
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="bg-success text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
             </footer>
           </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard color="info" class="text-center" body-wrapper>
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="bg-info text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
             </footer>
           </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard color="warning" class="text-center" body-wrapper>
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="bg-warning text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
             </footer>
           </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard color="danger" class="text-center" body-wrapper>
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="bg-danger text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
             </footer>
           </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard color="secondary" class="text-center" body-wrapper>
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="bg-secondary text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
             </footer>
           </blockquote>
-        </CCard>
-      </CCol>
-    </CRow>
-    <CRow>
-      <CCol sm="6" md="4">
-        <CCard color="primary" body-wrapper>
-          {{loremIpsum}}
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard color="success" body-wrapper>
-          {{loremIpsum}}
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard color="info" body-wrapper>
-          {{loremIpsum}}
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard color="warning" body-wrapper>
-          {{loremIpsum}}
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard color="danger" body-wrapper>
-          {{loremIpsum}}
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
+        </b-card>
+      </b-col>
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col sm="6" md="4">
+        <b-card header="Card title" class="bg-primary">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card title" class="bg-success">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card title" class="bg-info">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card title" class="bg-warning">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card title" class="bg-danger">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </b-card>
+      </b-col>
+      <b-col sm="6" md="4">
         <transition name="fade">
-          <CCard v-if="show" color="secondary">
-            <CCardHeader>
+          <b-card class="bg-secondary" no-body v-if="show">
+            <div slot="header">
               Card with header actions
               <div class="card-header-actions">
-                <CLink href="#" class="card-header-action btn-setting">
-                  <CIcon name="cil-settings"/>
-                </CLink>
-                <CLink class="card-header-action btn-minimize" @click="isCollapsed = !isCollapsed">
-                  <CIcon :name="`cil-chevron-${isCollapsed ? 'bottom' : 'top'}`"/>
-                </CLink>
-                <CLink href="#" class="card-header-action btn-close" v-on:click="show = false">
-                  <CIcon name="cil-x-circle"/>
-                </CLink>
+                <b-link href="#" class="card-header-action btn-setting">
+                  <i class="icon-settings"></i>
+                </b-link>
+                <b-link class="card-header-action btn-minimize" v-b-toggle.collapse1>
+                  <i class="icon-arrow-up"></i>
+                </b-link>
+                <b-link href="#" class="card-header-action btn-close" v-on:click="show = !show">
+                  <i class="icon-close"></i>
+                </b-link>
               </div>
-            </CCardHeader>
-            <CCollapse :show="isCollapsed" :duration="400">
-              <CCardBody>
-                {{loremIpsum}}
-              </CCardBody>
-            </CCollapse>
-          </CCard>
+            </div>
+            <b-collapse id="collapse1" visible>
+              <b-card-body>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+              </b-card-body>
+            </b-collapse>
+          </b-card>
         </transition>
-      </CCol>
-    </CRow>
+      </b-col>
+    </b-row><!--/.row-->
   </div>
 </template>
 
 <script>
+import { Switch as cSwitch } from '@coreui/vue'
 
 export default {
-  name: 'Cards',
+  name: 'cards',
+  components: {
+    cSwitch
+  },
   data: function () {
     return {
-      show: true,
-      isCollapsed: true,
-      loremIpsum: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.'
+      show: true
     }
   }
 }
 </script>
+
+<style scoped>
+  .fade-enter-active {
+    transition: all .3s ease;
+  }
+  .fade-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .fade-enter, .fade-leave-to {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+</style>
