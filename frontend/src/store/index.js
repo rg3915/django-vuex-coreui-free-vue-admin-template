@@ -39,7 +39,7 @@ export default new Vuex.Store({
           bodyFormData.append('obj', JSON.stringify(obj))
           axios.post(endpoint + '/product/add/', bodyFormData)
           .then(response => {
-            options.commit('ADD_PRODUCT', response.data);
+            options.commit('ADD_PRODUCT', response.data.data[0]);
           })
         },
         editProduct(options, obj) {

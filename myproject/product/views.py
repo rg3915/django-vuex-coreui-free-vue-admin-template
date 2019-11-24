@@ -1,4 +1,6 @@
+import json
 from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 from .models import Product
 
 
@@ -9,7 +11,13 @@ def products_json(request):
     return JsonResponse(response)
 
 
+@csrf_exempt
 def products_add(request):
-    products = [item.to_dict_json() for item in items]
-    response = {'products': products}
+    data = json.loads(request.POST.get('obj'))
+    name = data['name']
+    _price = data['price']
+    price = _price.replace(',', '.')
+    item = Product.objects.create(name=name, price=price)
+    data = [item.to_dict_json()]
+    response = {'data': data}
     return JsonResponse(response)
