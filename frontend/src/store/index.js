@@ -1,25 +1,19 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import axios from 'axios';
 
 Vue.use(Vuex);
 
+const endpoint = 'http://localhost:8000';
+
 export default new Vuex.Store({
     state: {
-        products: [{
-            id: 1,
-            name: 'Refrigerante',
-            price: 4.55
-        }, {
-            id: 2,
-            name: 'Sorvete',
-            price: 1.55
-        }, {
-            id: 3,
-            name: 'Hamburguer',
-            price: 20.42
-        }],
+        products: [],
     },
     mutations: {
+        SET_PRODUCTS(state, obj) {
+            state.products = obj;
+        },
         ADD_PRODUCT(state, obj) {
             state.products = [obj, ...state.products];
         },
@@ -34,15 +28,27 @@ export default new Vuex.Store({
         }
     },
     actions: {
+        loadProducts(options) {
+            axios.get(endpoint + '/product/')
+            .then(response => {
+                options.commit('SET_PRODUCTS', response.data);
+            })
+        },
         addProduct(options, obj) {
-            // Aqui você faz a chamada do Axios
-            options.commit('ADD_PRODUCT', {
-                ...obj,
-                id: Math.random()
-            });
+          let bodyFormData = new FormData()
+          bodyFormData.append('obj', JSON.stringify(obj))
+          axios.post(endpoint + '/product/add/', bodyFormData)
+          .then(response => {
+            options.commit('ADD_PRODUCT', response.data);
+          })
         },
         editProduct(options, obj) {
-            options.commit('EDIT_PRODUCT', obj);
+            let bodyFormData = new FormData()
+            bodyFormData.append('obj', JSON.stringify(obj))
+            axios.put(endpoint + '/product/' + obj.id, bodyFormData)
+            .then(response => {
+              options.commit('EDIT_PRODUCT', response.data);
+            })
         },
         deleteProduct(options, obj) {
             options.commit('DELETE_PRODUCT', obj);
