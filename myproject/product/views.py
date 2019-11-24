@@ -7,3 +7,9 @@ def products_json(request):
     products = [item.to_dict_json() for item in items]
     response = {'products': products}
     return JsonResponse(response)
+
+
+def products_add(request):
+    products = [item.to_dict_json() for item in items]
+    response = {'products': products}
+    return JsonResponse(response)
