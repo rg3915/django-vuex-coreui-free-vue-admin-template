@@ -48,6 +48,9 @@ export default {
             },
         }
     },
+    mounted() {
+        this.$store.dispatch('loadProducts');
+    },
     methods: {
         sendProduct() {
             if (!this.editingProduct.id) {
