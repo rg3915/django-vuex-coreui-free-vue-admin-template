@@ -50,6 +50,7 @@ npm run serve
 python -m venv .venv
 source .venv/bin/activate
 pip install -U pip; pip install django python-decouple django-extensions dj-database-url
+pip freeze > requirements.txt
 django-admin startproject myproject .
 cd myproject
 python ../manage.py startapp core
