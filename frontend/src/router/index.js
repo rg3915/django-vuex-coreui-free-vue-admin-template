@@ -58,20 +58,26 @@ const Register = () => import('@/views/pages/Register')
 const Users = () => import('@/views/users/Users')
 const User = () => import('@/views/users/User')
 
+const Products = () => import('@/views/Products')
+
 Vue.use(Router)
 
 function configRoutes() {
   return [
     {
       path: '/',
-      redirect: '/dashboard',
       name: 'Home',
       component: DefaultContainer,
       children: [
         {
-          path: 'dashboard',
+          path: '',
           name: 'Dashboard',
           component: Dashboard
+        },
+        {
+          path: '/products',
+          name: 'Products',
+          component: Products
         },
         {
           path: 'theme',
@@ -333,7 +339,7 @@ function configRoutes() {
 }
 
 export default new Router({
-  mode: 'hash', // https://router.vuejs.org/api/#mode
+  mode: 'history', // https://router.vuejs.org/api/#mode
   linkActiveClass: 'open active',
   scrollBehavior: () => ({ y: 0 }),
   routes: configRoutes()
