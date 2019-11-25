@@ -14,13 +14,13 @@ def products_json(request):
 @csrf_exempt
 def products_add(request):
     data = json.loads(request.POST.get('obj'))
-    # get values
+    # pega valores
     name = data['name']
     _price = data['price']
     price = _price.replace(',', '.')
-    # create object
+    # cria objeto
     obj = Product.objects.create(name=name, price=price)
-    # return data serialized
+    # retorna dados serializados
     data = obj.to_dict_json()
     return JsonResponse(data)
 
@@ -28,27 +28,24 @@ def products_add(request):
 @csrf_exempt
 def products_edit(request, pk):
     data = json.loads(request.POST.get('obj'))
-    # get values
+    # pega valores
     name = data['name']
     _price = data['price']
     price = _price.replace(',', '.')
-    # get object
+    # pega objeto
     obj = Product.objects.get(pk=pk)
-    # edit values
+    # edita valores
     obj.name = name
     obj.price = price
     obj.save()
-    # return data serialized
+    # retorna dados serializados
     data = obj.to_dict_json()
     return JsonResponse(data)
 
 
 @csrf_exempt
 def products_delete(request, pk):
-    # get object
     obj = Product.objects.get(pk=pk)
-    # delete object
     obj.delete()
-    # return data serialized
     data = {'deleted': True}
     return JsonResponse(data)
