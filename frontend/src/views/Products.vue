@@ -3,7 +3,7 @@
     
     <b-row>
       <b-col lg="12">
-        <c-table :table-data="$store.state.products" :fields="{name: 'Nome', price: 'Preço', actions: 'Ações'}" caption="Produtos"></c-table>
+        <!-- <c-table :table-data="$store.state.products" :fields="{name: 'Nome', price: 'Preço', actions: 'Ações'}" caption="Produtos"></c-table> -->
         <div class="card">
           <div class="card-header">
             Produtos
